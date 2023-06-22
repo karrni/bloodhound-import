@@ -1,0 +1,25 @@
+{
+  "name": "hungryhippo",
+  "version": "1.0.0",
+  "description": "Standalone tool for importing BloodHound ingestion data into the Neo4j database",
+  "main": "main.js",
+  "type": "module",
+  "engines": {
+    "node": "~16"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "David Ziegelwanger",
+  "license": "GPL-3.0",
+  "dependencies": {
+    "adm-zip": "^0.5.9",
+    "lodash": "^4.17.21",
+    "lodash-es": "^4.17.21",
+    "neo4j-driver": "^4.4.6",
+    "sanitize-filename": "^1.6.3",
+    "stream-chain": "^2.2.5",
+    "stream-json": "^1.8.0",
+    "yargs": "^17.7.2"
+  }
+}
